@@ -7,12 +7,12 @@ diskon_persen = 0
 
 # Logika diskon
 if member == "ya":
-    if total_belanja > 500_000:
+    if total_belanja > 500000:
         diskon_persen = 20
     else:
         diskon_persen = 10
 else:  # Jika bukan member
-    if total_belanja > 500_000:
+    if total_belanja > 500000:
         diskon_persen = 5
     else:
         diskon_persen = 0
